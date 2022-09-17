@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjWebIII_Events", "ProjWebIII_Events\ProjWebIII_Events.csproj", "{1B8A3BEF-9EE0-4A4A-AD8A-5A64092A5F59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjWebIII_Events.Infra.Data", "ProjWebIII_Events.Infra.Data\ProjWebIII_Events.Infra.Data.csproj", "{FE4D6CC7-CA21-41BA-816C-E46496E368E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7DB71D1F-1017-463E-9045-29196BAF7494} = {7DB71D1F-1017-463E-9045-29196BAF7494}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjWebIII_Events.Core", "ProjWebIII_Events.Core\ProjWebIII_Events.Core.csproj", "{7DB71D1F-1017-463E-9045-29196BAF7494}"
 EndProject
